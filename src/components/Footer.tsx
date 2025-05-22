@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <h3 className="text-lg font-cormorant text-gold mb-4">
             повседневность
           </h3>
-          <p className="text-sm text-gray-400">
+          <p className="text-base text-gray-300">
             проект исследующий внутренний мир через призму повседневных практик,
             направленных на самопознание и творческое развитие.
           </p>
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                 href="https://www.youtube.com/@azaluk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-gray-400 hover:text-gold transition-colors flex items-center gap-2"
+                className="text-base text-gray-300 hover:text-gold transition-colors flex items-center gap-2"
               >
                 <svg
                   className="w-5 h-5"
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
                 href="https://t.me/azalukk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-gray-400 hover:text-gold transition-colors flex items-center gap-2"
+                className="text-base text-gray-300 hover:text-gold transition-colors flex items-center gap-2"
               >
                 <svg
                   className="w-5 h-5"
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-gray-800 text-center">
-        <p className="text-xs text-gray-600">
+        <p className="text-sm text-gray-500">
           © 2025 повседневность. все права защищены.
         </p>
       </div>

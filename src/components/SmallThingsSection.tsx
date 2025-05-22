@@ -51,46 +51,6 @@ const SmallThingsSection: React.FC = () => {
       description:
         "особое чувство комфорта и обновления, когда прикосновение хрустящей ткани к коже становится маленьким праздником чистоты и уюта в конце дня",
     },
-    {
-      id: 7,
-      title: "уютные носки",
-      image:
-        "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description:
-        "теплые объятия для ног, создающие ощущение защищенности и домашнего тепла, особенно в прохладные вечера, когда за окном бушует непогода",
-    },
-    {
-      id: 8,
-      title: "любимая чашка",
-      image:
-        "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description:
-        "верный спутник утренних размышлений и вечерних чаепитий, в форме и текстуре которого скрыты истории и воспоминания, делающие каждый глоток особенным",
-    },
-    {
-      id: 9,
-      title: "рукописные дневники",
-      image:
-        "https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description:
-        "молчаливые хранители мыслей и чувств, где каждая строчка становится отпечатком момента жизни, а процесс письма превращается в медитативный ритуал самопознания",
-    },
-    {
-      id: 10,
-      title: "беседы по душам",
-      image:
-        "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description:
-        "редкие и ценные моменты искренности и открытости, когда слова текут свободно, создавая невидимые мосты между людьми и оставляя после себя чувство глубокой связи",
-    },
-    {
-      id: 11,
-      title: "йога",
-      image:
-        "https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description:
-        "путешествие внутрь себя через осознанное движение и дыхание, когда тело и разум находят гармонию в простых и сложных асанах, а время словно останавливается",
-    },
   ];
 
   return (
@@ -115,7 +75,7 @@ const SmallThingsSection: React.FC = () => {
                   className="w-full h-full object-cover sepia-image opacity-80 transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute bottom-0 left-0 p-4 z-20">
-                  <span className="text-xs text-gray-400">
+                  <span className="text-base text-gray-300">
                     {thing.id.toString().padStart(2, "0")}
                   </span>
                 </div>
@@ -125,7 +85,7 @@ const SmallThingsSection: React.FC = () => {
                 <h3 className="text-xl font-cormorant text-gold mb-4">
                   {thing.title}
                 </h3>
-                <p className="text-sm text-gray-400 italic">
+                <p className="text-base text-gray-300 italic">
                   {thing.description}
                 </p>
 

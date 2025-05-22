@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection: React.FC = () => {
   return (
     <section id="hero" className="relative min-h-screen w-full overflow-hidden">
-      <div className="absolute top-6 left-6 text-sm font-light text-gray-400 animate-fadeIn">
+      <div className="absolute top-6 left-6 text-base font-light text-gray-300 animate-fadeIn">
         21 марта
       </div>
 
@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
             alt="Текстура"
             className="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-overlay"
           />
-          <div className="absolute bottom-8 left-8 text-sm text-gray-400 max-w-xs">
+          <div className="absolute bottom-8 left-8 text-base text-gray-300 max-w-xs">
             <p className="italic">или как создавать по-настоящему свое</p>
           </div>
         </div>
@@ -39,7 +39,7 @@ const HeroSection: React.FC = () => {
             </h2>
             <div className="flex justify-end items-center gap-3">
               <span className="thin-line"></span>
-              <span className="text-xs text-gray-400"></span>
+              <span className="text-base text-gray-300">арт-встреча</span>
             </div>
           </div>
         </div>

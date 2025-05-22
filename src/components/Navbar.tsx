@@ -16,38 +16,38 @@ const Navbar: React.FC = () => {
             className="md:hidden text-gray-400 hover:text-gold"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? "Закрыть" : "Меню"}
+            {isMenuOpen ? "закрыть" : "меню"}
           </button>
 
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-8">
             <a
               href="#hero"
-              className="text-gray-300 hover:text-gold transition-colors"
+              className="text-base hover:text-gold transition-colors"
             >
               главная
             </a>
             <a
               href="#quotes"
-              className="text-gray-300 hover:text-gold transition-colors"
+              className="text-base hover:text-gold transition-colors"
             >
               о проекте
             </a>
             <a
               href="#practices"
-              className="text-gray-300 hover:text-gold transition-colors"
+              className="text-base hover:text-gold transition-colors"
             >
               практики
             </a>
             <a
               href="#small-things"
-              className="text-gray-300 hover:text-gold transition-colors"
+              className="text-base hover:text-gold transition-colors"
             >
               маленькие вещи
             </a>
             <a
               href="#contact"
-              className="text-gray-300 hover:text-gold transition-colors"
+              className="text-base hover:text-gold transition-colors"
             >
               контакты
             </a>
@@ -60,31 +60,31 @@ const Navbar: React.FC = () => {
             <div className="flex flex-col space-y-4 pb-4">
               <a
                 href="#hero"
-                className="text-gray-300 hover:text-gold transition-colors"
+                className="text-base hover:text-gold transition-colors"
               >
                 главная
               </a>
               <a
                 href="#quotes"
-                className="text-gray-300 hover:text-gold transition-colors"
+                className="text-base hover:text-gold transition-colors"
               >
                 о проекте
               </a>
               <a
                 href="#practices"
-                className="text-gray-300 hover:text-gold transition-colors"
+                className="text-base hover:text-gold transition-colors"
               >
                 практики
               </a>
               <a
                 href="#small-things"
-                className="text-gray-300 hover:text-gold transition-colors"
+                className="text-base hover:text-gold transition-colors"
               >
                 маленькие вещи
               </a>
               <a
                 href="#contact"
-                className="text-gray-300 hover:text-gold transition-colors"
+                className="text-base hover:text-gold transition-colors"
               >
                 контакты
               </a>

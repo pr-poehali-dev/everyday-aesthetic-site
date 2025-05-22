@@ -24,15 +24,14 @@ const QuotesSection: React.FC = () => {
 
           <div className="absolute top-12 left-0 w-full p-4">
             <p className="quote-italic text-xl md:text-2xl mb-6 max-w-md text-gold text-left">
-              "красота скрывается в повседневных мелочах, в привычных ритуалах,
-              которые мы часто не замечаем„
+              "когда ты молод, нужно побольше оставаться наедине с собой и своей
+              болью„
             </p>
           </div>
 
           <div className="absolute bottom-12 right-0 w-full p-4 text-right">
             <p className="quote-italic text-xl md:text-2xl max-w-md ml-auto text-gold">
-              "обыденность — это холст, на котором мы рисуем истинную красоту
-              своей жизни„
+              "мы должны во все стороны растягивать нашу душу„
             </p>
           </div>
         </div>
@@ -52,11 +51,11 @@ const QuotesSection: React.FC = () => {
             />
 
             <div className="relative z-10">
-              <h3 className="text-sm text-gray-400 uppercase mb-6 tracking-wider lowercase">
+              <h3 className="text-base text-gray-300 uppercase mb-6 tracking-wider lowercase">
                 практики внутреннего внимания
               </h3>
 
-              <ul className="space-y-4 text-sm text-gray-300">
+              <ul className="space-y-4 text-base text-gray-300">
                 <li className="pb-2 border-b border-gray-800">
                   написание утренних страниц
                 </li>
