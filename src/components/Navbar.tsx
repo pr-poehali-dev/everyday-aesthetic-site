@@ -25,31 +25,31 @@ const Navbar: React.FC = () => {
               href="#hero"
               className="text-gray-300 hover:text-gold transition-colors"
             >
-              Главная
+              главная
             </a>
             <a
               href="#quotes"
               className="text-gray-300 hover:text-gold transition-colors"
             >
-              О проекте
+              о проекте
             </a>
             <a
               href="#practices"
               className="text-gray-300 hover:text-gold transition-colors"
             >
-              Практики
+              практики
             </a>
             <a
               href="#small-things"
               className="text-gray-300 hover:text-gold transition-colors"
             >
-              Маленькие вещи
+              маленькие вещи
             </a>
             <a
               href="#contact"
               className="text-gray-300 hover:text-gold transition-colors"
             >
-              Контакты
+              контакты
             </a>
           </div>
         </div>
@@ -62,31 +62,31 @@ const Navbar: React.FC = () => {
                 href="#hero"
                 className="text-gray-300 hover:text-gold transition-colors"
               >
-                Главная
+                главная
               </a>
               <a
                 href="#quotes"
                 className="text-gray-300 hover:text-gold transition-colors"
               >
-                О проекте
+                о проекте
               </a>
               <a
                 href="#practices"
                 className="text-gray-300 hover:text-gold transition-colors"
               >
-                Практики
+                практики
               </a>
               <a
                 href="#small-things"
                 className="text-gray-300 hover:text-gold transition-colors"
               >
-                Маленькие вещи
+                маленькие вещи
               </a>
               <a
                 href="#contact"
                 className="text-gray-300 hover:text-gold transition-colors"
               >
-                Контакты
+                контакты
               </a>
             </div>
           </div>

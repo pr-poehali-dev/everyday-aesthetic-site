@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
         <div className="relative bg-charcoal flex items-center justify-center p-6 animate-fadeIn delay-200">
           <img
             src="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?q=80&w=2070&auto=format&fit=crop"
-            alt="Силуэт в лесу"
+            alt="силуэт в лесу"
             className="absolute inset-0 w-full h-full object-cover opacity-40 sepia-image"
           />
           <div className="relative z-10 text-right max-w-lg p-6">

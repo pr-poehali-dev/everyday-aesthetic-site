@@ -33,6 +33,28 @@ const Index: React.FC = () => {
       <main>
         <HeroSection />
         <QuotesSection />
+        <section className="py-16 px-6" data-animate>
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl font-cormorant text-gold mb-8">
+              присоединяйтесь к нам
+            </h2>
+            <p className="text-gray-300 mb-8">
+              наши встречи — это уникальная возможность погрузиться в
+              исследование собственного внутреннего мира через призму эстетики
+              повседневности. мы создаем пространство, где интроверсия
+              становится не просто чертой характера, а творческим ресурсом.
+            </p>
+
+            <div className="inline-block">
+              <a
+                href="#"
+                className="inline-block border border-gold text-gold px-6 py-3 hover:bg-gold/10 transition-colors"
+              >
+                зарегистрироваться на встречу
+              </a>
+            </div>
+          </div>
+        </section>
         <SmallThingsSection />
       </main>
 
