@@ -1,15 +1,12 @@
 
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Чашка -->
-  <path d="M25 40C25 35 30 30 50 30C70 30 75 35 75 40V65C75 75 65 80 50 80C35 80 25 75 25 65V40Z" fill="#D4AF37" fill-opacity="0.8" stroke="#D4AF37" stroke-width="2"/>
-  
-  <!-- Ручка чашки -->
-  <path d="M75 45C80 45 85 50 85 55C85 60 80 65 75 65" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
-  
-  <!-- Пар над чашкой -->
-  <path d="M40 25C40 25 45 15 50 20C55 25 50 15 55 10" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
-  <path d="M50 25C50 25 55 15 60 20" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
-  
-  <!-- Блюдце -->
-  <ellipse cx="50" cy="80" rx="30" ry="5" fill="#D4AF37" fill-opacity="0.3"/>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24 10H25.5C26.8261 10 28.0979 10.5268 29.0355 11.4645C29.9732 12.4021 30.5 13.6739 30.5 15C30.5 16.3261 29.9732 17.5979 29.0355 18.5355C28.0979 19.4732 26.8261 20 25.5 20H24" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M4 10H24V22C24 23.3261 23.4732 24.5979 22.5355 25.5355C21.5979 26.4732 20.3261 27 19 27H9C7.67392 27 6.40215 26.4732 5.46447 25.5355C4.52678 24.5979 4 23.3261 4 22V10Z" fill="#000" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 3C14.7956 3 15.5587 3.31607 16.1213 3.87868C16.6839 4.44129 17 5.20435 17 6V10" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9 3C9.79565 3 10.5587 3.31607 11.1213 3.87868C11.6839 4.44129 12 5.20435 12 6V10" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 15C14 15 13 16 11 16C9 16 8 15 8 15" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 15C20 15 19 16 17 16C15 16 14 15 14 15" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 18C12 18 13 21 14 21C15 21 16 18 16 18" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9 17C9 17 10 20 11 20C12 20 13 17 13 17" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15 17C15 17 16 20 17 20C18 20 19 17 19 17" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

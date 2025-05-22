@@ -1,35 +1,27 @@
 import type { Config } from "tailwindcss";
+import { fileURLToPath } from "url";
+import { dirname, resolve } from "path";
 
-const config: Config = {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: {
-        black: "#000000",
-        charcoal: "#1A1A18",
-        gold: "#D4AF37",
-        offwhite: "#F5F5F5",
-      },
       fontFamily: {
         cormorant: ["Cormorant", "serif"],
       },
-      animation: {
-        fadeIn: "fadeIn 1.5s ease-in-out forwards",
-        slideUp: "slideUp 0.8s ease-out forwards",
+      colors: {
+        gold: "#D4AF37",
+        charcoal: "#1A1A18",
+        offwhite: "#F5F5F0",
       },
-      keyframes: {
-        fadeIn: {
-          "0%": { opacity: "0" },
-          "100%": { opacity: "1" },
-        },
-        slideUp: {
-          "0%": { transform: "translateY(20px)", opacity: "0" },
-          "100%": { transform: "translateY(0)", opacity: "1" },
-        },
+      animation: {
+        fadeIn: "fadeIn 1s ease forwards",
+        slideUp: "slideUp 0.8s ease forwards",
       },
     },
   },
-  plugins: [],
-};
-
-export default config;
+  plugins: [require("@tailwindcss/typography")],
+} satisfies Config;

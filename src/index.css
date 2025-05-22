@@ -24,11 +24,11 @@ body {
 }
 
 .text-gold {
-  color: var(--gold);
+  color: #d4af37;
 }
 
 .bg-charcoal {
-  background-color: var(--charcoal);
+  background-color: #1a1a18;
 }
 
 .text-offwhite {
@@ -36,20 +36,21 @@ body {
 }
 
 .sepia-image {
-  filter: sepia(30%) contrast(110%) brightness(80%);
+  filter: sepia(0.2) contrast(1.1) brightness(0.9);
+  transition: all 0.5s ease;
 }
 
 .thin-line {
-  display: inline-block;
-  width: 30px;
   height: 1px;
-  background-color: var(--gold);
+  background-color: rgba(212, 175, 55, 0.3);
+  display: inline-block;
 }
 
 .quote-italic {
+  font-family: "Cormorant", serif;
   font-style: italic;
-  color: var(--gold);
-  font-weight: 300;
+  color: #d4af37;
+  line-height: 1.4;
 }
 
 /* Анимации */
@@ -74,11 +75,11 @@ body {
 }
 
 .animate-fadeIn {
-  animation: fadeIn 1.2s ease forwards;
+  animation: fadeIn 1s ease forwards;
 }
 
 .animate-slideUp {
-  animation: slideUp 1s ease forwards;
+  animation: slideUp 0.8s ease forwards;
 }
 
 .delay-200 {
