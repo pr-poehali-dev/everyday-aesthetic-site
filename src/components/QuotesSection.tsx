@@ -23,7 +23,7 @@ const QuotesSection: React.FC = () => {
           />
 
           <div className="absolute top-12 left-0 w-full p-4">
-            <p className="quote-italic text-xl md:text-2xl mb-6 max-w-md text-gold">
+            <p className="quote-italic text-xl md:text-2xl mb-6 max-w-md text-gold text-left">
               "красота скрывается в повседневных мелочах, в привычных ритуалах,
               которые мы часто не замечаем„
             </p>
@@ -95,14 +95,14 @@ const QuotesSection: React.FC = () => {
 
             <div className="absolute inset-0 flex items-center justify-center p-8">
               <div className="text-center max-w-xs">
-                <p className="quote-italic text-2xl mb-3">
+                <p className="quote-italic text-2xl mb-3 text-gold font-semibold">
                   что мне
                   <br />
                   помогает
                   <br />
                   лучше себя
                   <br />
-                  понять
+                  понять?
                 </p>
                 <p className="text-xs text-gold">*через 4 часа</p>
               </div>

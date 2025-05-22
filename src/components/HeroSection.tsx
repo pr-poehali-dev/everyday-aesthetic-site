@@ -39,7 +39,7 @@ const HeroSection: React.FC = () => {
             </h2>
             <div className="flex justify-end items-center gap-3">
               <span className="thin-line"></span>
-              <span className="text-xs text-gray-400">арт-встреча</span>
+              <span className="text-xs text-gray-400"></span>
             </div>
           </div>
         </div>
