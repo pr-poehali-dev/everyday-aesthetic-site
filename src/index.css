@@ -5,39 +5,87 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
+  --gold: #d4af37;
+  --charcoal: #1a1a18;
+  --offwhite: #f5f5f5;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
   font-family: "Cormorant", serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-cormorant {
+  font-family: "Cormorant", serif;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-charcoal {
+  background-color: var(--charcoal);
+}
+
+.text-offwhite {
+  color: var(--offwhite);
+}
+
+.sepia-image {
+  filter: sepia(30%) contrast(110%) brightness(80%);
 }
 
 .thin-line {
   display: inline-block;
-  width: 40px;
+  width: 30px;
   height: 1px;
-  background-color: #d4af37;
+  background-color: var(--gold);
 }
 
 .quote-italic {
-  font-family: "Cormorant", serif;
   font-style: italic;
+  color: var(--gold);
   font-weight: 300;
-  color: #d4af37;
 }
 
-.sepia-image {
-  filter: sepia(20%) brightness(80%) contrast(110%);
+/* Анимации */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.2s ease forwards;
+}
+
+.animate-slideUp {
+  animation: slideUp 1s ease forwards;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+/* ... keep existing code */
 
 @layer utilities {
   .animate-delay-100 {
