@@ -92,6 +92,53 @@ body {
 
 /* ... keep existing code */
 
+/* Дополнительные стили для секции "маленькие вещи" */
+.sepia-image {
+  filter: sepia(20%) brightness(85%) contrast(95%);
+}
+
+.thin-line {
+  height: 1px;
+  background-color: rgba(212, 175, 55, 0.3);
+  transition: width 0.3s ease-out;
+}
+
+.group:hover .thin-line {
+  width: 80% !important;
+  background-color: rgba(212, 175, 55, 0.6);
+}
+
+/* Настройка анимаций появления */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* ... keep existing code */
+
 @layer utilities {
   .animate-delay-100 {
     animation-delay: 100ms;
